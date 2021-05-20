@@ -14,5 +14,7 @@ Run `truffle migrate` to deploy the smart contract(s) to the blockchain then loo
 
 Click on the key icon on the right of an address in the "Accounts" section of Ganache to get the account's private key and import it into MetaMask. You can of course import as many of the accounts Ganache has set up as you'd like.
 
+Now the last step in setting up the blockchain is to get MetaMask to connect to your blockchain. Go to the "Network" section of the MetaMask settings and add (or edit) a network with the Ganache server IP and port, then select it from the dropdown on the main MetaMask menu.
+
 ## Web server
 Unfortunately MetaMask doesn't inject itself into the HTML DOM when you browse the file with the "file://" protocol so you need to start a web server. A simple one is "http-server" that you can install with `npm install http-server -g` and then run with `http-server . localhost` from the project root folder. Go to localhost:8080 in your web browser and you should see the site appear. You should be able to interact with it and transact on the blockchain you set up.
