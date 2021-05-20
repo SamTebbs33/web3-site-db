@@ -33,7 +33,7 @@ const contract_abi = [
 		"type": "function"
 	}
 ];
-const contract_address = "0x354E516a37e12D962cd4FDC5C12ad4bf5B5b3EE6";
+const contract_address = "0x09161c52b89d4c5b199b4147bf5d7d1481fdd45b";
 var website_text = document.getElementById("website");
 var address_text = document.getElementById("address");
 
