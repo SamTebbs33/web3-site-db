@@ -2,11 +2,11 @@
 A web3 application that associates a URL with an ethereum address
 
 # Test online
-Head over to <a href="https://gateway.pinata.cloud/ipfs/QmXGbshNbev7e4Yy2263Kuz69Xtirgzs9MBoJngBNcGqJJ/">the ipfs gateway</a> if your browser doesn't support viewing IPFS content, otherwise you can check it out on <a href="ipfs://QmXGbshNbev7e4Yy2263Kuz69Xtirgzs9MBoJngBNcGqJJ">on IPFS</a>. Make sure you have MetaMask installed and are tracking the Ropsten test network. If you need some test ether to pay for the transaction gas fees take a look at the <a href="https://faucet.ropsten.be">faucet</a> to get some for free.
+Head over to [the ipfs gateway](https://gateway.pinata.cloud/ipfs/QmXGbshNbev7e4Yy2263Kuz69Xtirgzs9MBoJngBNcGqJJ/) if your browser doesn't support viewing IPFS content, otherwise you can check it out [on IPFS](ipfs://QmXGbshNbev7e4Yy2263Kuz69Xtirgzs9MBoJngBNcGqJJ). Make sure you have MetaMask installed and are tracking the Ropsten test network. If you need some test ether to pay for the transaction gas fees take a look at the [faucet](https://faucet.ropsten.be) to get some for free.
 
 # Test locally
 ## Blockchain
-To test with a locally hosted blockchain, you'll need to install <a href="https://www.trufflesuite.com/ganache">Ganache</a> and <a href="https://www.trufflesuite.com/truffle">Truffle</a>. Then run `truffle init` in the project's root directory and when prompted choose to not overwrite aything.
+To test with a locally hosted blockchain, you'll need to install [Ganache](https://www.trufflesuite.com/ganache) and [Truffle](https://www.trufflesuite.com/truffle). Then run `truffle init` in the project's root directory and when prompted choose to not overwrite aything.
 
 Once you've set up a Ganache workspace (run the Ganache program to do that) edit the truffle-config.js file to match the port and IP of the Ganache server you have running (localhost and port 7545 will most likely match what Ganache is serving from).
 
